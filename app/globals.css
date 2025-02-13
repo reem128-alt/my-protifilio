@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade{
+    from {transform:scale(0.5);}
+    to {transform:scale(1)}   
+}
+
+.fade{
+    animation:fade 1s 2s linear ;
+ 
+    
+}
+@keyframes progress{
+    from {transform:translateX(0);}
+    to {transform:translateX(-30px)}   
+}
+@keyframes retard{
+    from {transform:translateX(0);}
+    to {transform:translateX(50px)}   
+}
+.retardAnimate{
+    animation:retard 1s 2s linear ;
+}
+
+.trananimate{
+    animation:progress 1s 2s linear ;
+}
+.tra{
+   transition:opacity 1s 2s linear ;
+}
+
