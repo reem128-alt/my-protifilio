@@ -28,6 +28,11 @@ const pro=[
     id:'5',
     title:'Movie Dashboard',
     description:"Full-stack movie dashboard application built with modern technologies. Frontend: React, Tailwind CSS, and React Query for efficient data fetching. Backend: Node.js, Express, and MongoDB for data storage. Features include movie browsing, search functionality, and user authentication.here the code of backend : https://github.com/reem128-alt/movie-dashboard"
+  },
+   {
+    id:'6',
+    title:'health-platform',
+    description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSS, and next/clerk for user authentication,the app show service,doctors memeber and blogs and take appointment ,for demo i expose dashboard page for add,edit,delete doxtor and blog. Backend: Node.js, Express, and MongoDB for data storage."
   }
 ]
 
