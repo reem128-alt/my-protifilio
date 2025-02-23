@@ -32,7 +32,7 @@ const pro=[
    {
     id:'6',
     title:'health-platform',
-    description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSS, and next/clerk for user authentication,the app show service,doctors memeber and blogs and take appointment ,for demo i expose dashboard page for add,edit,delete doxtor and blog. Backend: Node.js, Express, and MongoDB for data storage."
+    description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSS, and next/clerk for user authentication,the app show service,doctors memebers and blogs and take appointment ,for demo i expose dashboard page for add,edit,delete doctor and blog. Backend: Node.js, Express, and MongoDB for data storage."
   }
 ]
 
