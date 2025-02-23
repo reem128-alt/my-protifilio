@@ -32,7 +32,7 @@ export default function ShowProject() {
         <h1 className='font-semibold text-lg '>See All Projects</h1>
         <FaArrowRight size={20}  className='mt-[6px] hover:animate-bounce'/>
         </div>
-        <ul ref={ref} className='flex flex-wrap gap-4  w-full h-64 max-[350px]:gap-6 '>
+        <ul ref={ref} className='flex flex-wrap gap-4 mx-auto'>
           {images.map((img,index)=>
             (<motion.li
             key={index}
