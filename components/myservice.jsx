@@ -64,7 +64,7 @@ export default function Myservice() {
            transition={{duration: 0.3, delay: index * 0.4}}
            className="w-full max-w-sm"
            >
-          <div className='bg-gray-950 brightness-150 w-full h-64 p-6 shadow-md shadow-yellow-300 hover:shadow-lg hover:shadow-yellow-400 transition-all duration-300'>
+          <div className='bg-gray-950 brightness-150 w-full h-64 max-sm:h-72 p-6 shadow-md shadow-yellow-300 hover:shadow-lg hover:shadow-yellow-400 transition-all duration-300'>
             <div className="w-12 h-12 relative mb-4">
               <Image 
                 src={ele.src} 
