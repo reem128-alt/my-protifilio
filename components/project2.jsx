@@ -46,7 +46,7 @@ export default function Project2(){
   };
 
     return (
-        <div className="w-full min-h-[300px] mt-4 px-2">
+        <div className="w-full min-h-[400px] mt-4 px-2">
             <h3 className='text-center font-bold text-2xl p-3 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-blue-300 mb-4'>
               <span className='underline underline-offset-4 text-yellow-300'>MY </span> PROJECTS
             </h3>
