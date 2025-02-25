@@ -28,7 +28,7 @@ export default function Contacts() {
   };
 
   return (
-    <div id='contacts' className='md:mx-[23%] mt-12 flex justify-center items-center border-spacing-1 pl-4 bg-gray-950 brightness-150  max-[320px]:justify-start'  style={{borderRadius:'48% 66% 100% 100% /6% 79% 16% 26%'}}>
+    <div id='contacts' className='md:mx-[23%] absolute bottom-0 flex justify-center items-center border-spacing-1 pl-4 bg-gray-950 brightness-150  max-[320px]:justify-start'  style={{borderRadius:'48% 66% 100% 100% /6% 79% 16% 26%'}}>
       <div className='w-1/2 flex flex-col gap-2 ml-4'>
         <h1 className='text-xl p-5 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-blue-300'>
           <span className='underline underline-offset-4 text-yellow-300'>CO</span>NTACT ME
