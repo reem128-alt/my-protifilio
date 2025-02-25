@@ -27,7 +27,7 @@ export default function ShowProject() {
   };
   
   return (
-     <div className=' w-full text-slate-200  hover:text-yellow-200 h-fit '>
+     <div className=' w-full text-slate-200  hover:text-yellow-200 min-h-[500px] '>
       <div className='flex flex-row  gap-2 ml-7 p-4 '>
         <h1 className='font-semibold text-lg '>See All Projects</h1>
         <FaArrowRight size={20}  className='mt-[6px] hover:animate-bounce'/>
