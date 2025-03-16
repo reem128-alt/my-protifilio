@@ -34,7 +34,7 @@ export default function ShowProject() {
         <FaArrowRight size={20}  className='mt-[6px] hover:animate-bounce'/>
         </div>
        <div className="flex justify-center items-center w-full">
-        <ul ref={ref} className='grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full h-64 max-[350px]:gap-6 '>
+        <ul ref={ref} className='grid  grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full h-64 max-[350px]:gap-6 '>
           {images.map((img,index)=>
             (<motion.li
             key={index}
