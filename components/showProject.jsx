@@ -1,4 +1,4 @@
-'use client'
+i'use client'
 import Image from 'next/image'
 import React ,{useState,useRef} from 'react'
 import { FaCode,FaEye  } from "react-icons/fa";
@@ -33,7 +33,7 @@ export default function ShowProject() {
         <h1 className='font-semibold text-lg '>See All Projects</h1>
         <FaArrowRight size={20}  className='mt-[6px] hover:animate-bounce'/>
         </div>
-       <div className="flex  w-full justify-center ">
+       <div className="flex flex-row w-full justify-center items-center ">
         <ul ref={ref} className='grid  grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full  max-[350px]:gap-6 '>
           {images.map((img,index)=>
             (<motion.li
