@@ -32,7 +32,12 @@ const pro=[
    {
     id:'6',
     title:'health-platform',
-    description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSS, and next/clerk for user authentication,the app show service,doctors memebers and blogs and take appointment ,for demo i expose dashboard page for add,edit,delete doctor and blog. Backend: Node.js, Express, and MongoDB for data storage."
+    description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSS, and next/clerk for user authentication,the app show service,doctors memeber and blogs and take appointment ,for demo i expose dashboard page for add,edit,delete doxtor and blog. Backend: Node.js, Express, and MongoDB for data storage."
+  },
+  {
+    id:'7',
+    title:'polling-system',
+    description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSSt,in Backend: Node.js, Express, and MongoDB for data storage."
   }
 ]
 
@@ -46,7 +51,7 @@ export default function Project2(){
   };
 
     return (
-        <div className="w-full min-h-[400px] mt-4 px-2">
+        <div className="w-full min-h-[300px] mt-4 px-2">
             <h3 className='text-center font-bold text-2xl p-3 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-blue-300 mb-4'>
               <span className='underline underline-offset-4 text-yellow-300'>MY </span> PROJECTS
             </h3>
@@ -62,7 +67,7 @@ export default function Project2(){
                   >
                     <button 
                       key={ele.id} 
-                      className='bg-gradient-to-r from-yellow-500 to-blue-300 w-full text-slate-900 max-w-[180px] py-1.5 rounded-md hover:shadow-lg hover:shadow-yellow-900 transition-all duration-300' 
+                      className='bg-gradient-to-r from-yellow-500 to-blue-300 w-full max-w-[180px] py-1.5 rounded-md hover:shadow-lg hover:shadow-yellow-900 transition-all duration-300' 
                       onClick={()=>{document.getElementById(`my_modal_${ele.id}`).showModal()}}
                     >
                       {ele.title}
