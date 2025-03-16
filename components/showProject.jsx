@@ -28,13 +28,13 @@ export default function ShowProject() {
   };
   
   return (
-     <div className=' w-full text-slate-200  hover:text-yellow-200 max-[430px]:h-[700px]'>
+     <div className='h-[500px] w-full text-slate-200  hover:text-yellow-200 max-[430px]:h-[700px]'>
       <div className='flex flex-row w-full gap-2 ml-7 p-4 '>
         <h1 className='font-semibold text-lg '>See All Projects</h1>
         <FaArrowRight size={20}  className='mt-[6px] hover:animate-bounce'/>
         </div>
-       <div className="flex w-full">
-        <ul ref={ref} className='grid  grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full h-64 max-[350px]:gap-6 '>
+       <div className="flex  w-full justify-center ">
+        <ul ref={ref} className='grid  grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-3 w-full  max-[350px]:gap-6 '>
           {images.map((img,index)=>
             (<motion.li
             key={index}
