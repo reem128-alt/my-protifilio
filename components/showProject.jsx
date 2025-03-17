@@ -47,7 +47,7 @@ export default function ShowProject() {
             >
 
            <div key={img.id} className='relative w-[280px] h-[200px] shadow-sm shadow-gray-300 max-[430px]:h-[180px] max-[430px]:w-[250px]' onMouseOver={()=>setShow(img.active)} onMouseLeave={()=>setShow('')}>
-              <Image src={img.src} alt={`project-${img.id}`} fill className='rounded-md shadow-md shadow-gray-600 hover:brightness-50 object-cover'  />
+              <Image src={img.src} alt={`project-${img.id}`} fill className='rounded-md shadow-md shadow-gray-600 hover:brightness-50 '  />
             
                 {show === img.active && 
                   <div className='absolute flex flex-row gap-2 left-[50%] top-[50%] -translate-x-[50%] -translate-y-[50%]'>
