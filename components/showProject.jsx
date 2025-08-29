@@ -11,7 +11,7 @@ import {motion,useInView} from 'framer-motion'
 const images=[{id:1,src:'/music.jpg',href:'https://music-app-reem-hasans-projects-9ab23a8b.vercel.app/',url:'https://github.com/Reem-del/musicApp',
   active:'one'},{id:2,src:'/quiz.jpg',href:'https://quiz-eta-five.vercel.app/',active:'two',url:'https://github.com/Reem-del/Quiz'},
 {id:3,src:'/ecommerce.jpg',href:'https://shop-reem-del-reem-hasans-projects-9ab23a8b.vercel.app/',active:'three',url:'https://github.com/Reem-del/e-commerce'},
-{id:4,src:'/blog.jpg',href:'https://blog-seven-sigma-81.vercel.app/',active:'four',url:'https://github.com/reem128-alt/blog'},
+{id:4,src:'/blog.jpg',href:'https://blog-beta-seven-98.vercel.app/en/signin',active:'four',url:'https://github.com/reem128-alt/blog'},
 {id:5,src:'/movie.jpg',href:'https://movie-dash-front.vercel.app/',active:'five',url:'https://github.com/reem128-alt/movie-dash-front'},
 {id:6,src:'/health.jpg',href:'https:https://health-care-qw9j.vercel.app/',active:'six',url:'https://github.com/reem128-alt/health-care'},
 {id:7,src:'/poll.jpg',href:'https://polling-tau.vercel.app/',active:'seven',url:'https://github.com/reem128-alt/polling'}
