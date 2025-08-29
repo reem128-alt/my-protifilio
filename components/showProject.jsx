@@ -9,8 +9,8 @@ const images = [
   {
     id: 1,
     src: "/music.jpg",
-    href: "https://github.com/reem128-alt/music-app",
-    url: "https://music-app-omega-one-73.vercel.app/",
+    href: "https://music-app-omega-one-73.vercel.app/",
+    url: "https://github.com/reem128-alt/music-app",
     active: "one",
   },
   {
