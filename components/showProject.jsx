@@ -41,6 +41,13 @@ const images = [
     active: "seven",
     url: "https://github.com/reem128-alt/polling",
   },
+  {
+    id: 8,
+    src: "/chat.jpg",
+    href: "https://chat-app-front-phi.vercel.app/", // TODO: replace with chat app live URL
+    active: "eight",
+    url: "https://github.com/reem128-alt/chat-app-front",
+  },
 ];
 
 export default function ShowProject() {
