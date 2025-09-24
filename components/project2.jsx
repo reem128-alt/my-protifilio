@@ -38,7 +38,13 @@ const pro=[
     id:'7',
     title:'polling-system',
     description:"Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSSt,in Backend: Node.js, Express, and MongoDB for data storage."
-  }
+  },
+   {
+    id: "8",
+    title: "chat-app",
+    description:
+      "Full-stack  application built with modern technologies. Frontend: Nextjs, Tailwind CSS,zustand for state management,socket.io for real-time communication. Backend: Node.js, Express, and MongoDB for data storage.",
+  },
 ]
 
 export default function Project2(){
