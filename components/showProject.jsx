@@ -16,7 +16,7 @@ const images = [
   {
     id: 4,
     src: "/blog.jpg",
-    href: "https://blog-one-virid-60.vercel.app/en",
+    href: "https://blog-one-virid-60.vercel.app",
     active: "four",
     url: "https://github.com/reem128-alt/blog",
   },
