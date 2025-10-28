@@ -13,7 +13,7 @@ export default function Header() {
     <div className='w-full h-[400px] relative '>
    
     <nav className='absolute w-full flex flex-row justify-between text-white p-3 font-serif'>
-      <Link className='text-xl hover:text-yellow-400' href='/'>MyProtfilio</Link>
+      <Link className='text-xl hover:text-yellow-400' href='/'>My portfolio</Link>
       <div className='flex flex-row gap-3 max-sm:hidden'>
       <Link className='hover:text-yellow-400' href='#About'>About</Link>
       <Link className='hover:text-yellow-400' href='#Service'>Service</Link>
@@ -54,3 +54,4 @@ export default function Header() {
     </div>
   )
 }
+
